@@ -1,15 +1,19 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+﻿// Copyright (C) 2023 owoDra
 
 #pragma once
 
-#include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
 class FDualityCoreModule : public IModuleInterface
 {
 public:
-
-	/** IModuleInterface implementation */
+	/**
+	 * IModuleInterface から継承
+	 */
 	virtual void StartupModule() override;
+
+	/**
+	 * IModuleInterface から継承
+	 */
 	virtual void ShutdownModule() override;
 };

@@ -1,6 +1,14 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+﻿// Copyright (C) 2023 owoDra
 
 #include "ProjectDuality.h"
-#include "Modules/ModuleManager.h"
 
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, ProjectDuality, "ProjectDuality" );
+IMPLEMENT_PRIMARY_GAME_MODULE(FDualityGameModule, ProjectDuality, "ProjectDuality");
+
+
+void FDualityGameModule::StartupModule()
+{
+}
+
+void FDualityGameModule::ShutdownModule()
+{
+}

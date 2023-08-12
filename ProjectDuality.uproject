@@ -1,4 +1,4 @@
-{
+﻿{
 	"FileVersion": 3,
 	"EngineAssociation": "5.2",
 	"Category": "",
@@ -23,27 +23,15 @@
 			"Enabled": true
 		},
 		{
-			"Name": "GameFeatures",
-			"Enabled": true
-		},
-		{
-			"Name": "CommonUI",
-			"Enabled": true
-		},
-		{
-			"Name": "CodeView",
-			"Enabled": true
-		},
-		{
 			"Name": "Volumetrics",
 			"Enabled": true
 		},
 		{
-			"Name": "ControlFlows",
+			"Name": "AudioModulation",
 			"Enabled": true
 		},
 		{
-			"Name": "AudioModulation",
+			"Name": "DualityCore",
 			"Enabled": true
 		}
 	]

@@ -1,0 +1,14 @@
+﻿// Copyright (C) 2023 owoDra
+
+#pragma once
+
+#include "Logging/LogMacros.h"
+
+DUALITYCORE_API DECLARE_LOG_CATEGORY_EXTERN(LogDC, Log, All);
+DUALITYCORE_API DECLARE_LOG_CATEGORY_EXTERN(LogDCCharacter, Log, All);
+DUALITYCORE_API DECLARE_LOG_CATEGORY_EXTERN(LogDCMovement, Log, All);
+DUALITYCORE_API DECLARE_LOG_CATEGORY_EXTERN(LogDCAbilitySystem, Log, All);
+DUALITYCORE_API DECLARE_LOG_CATEGORY_EXTERN(LogDCUserInterface, Log, All);
+DUALITYCORE_API DECLARE_LOG_CATEGORY_EXTERN(LogDCInput, Log, All);
+
+DUALITYCORE_API FString GetClientServerContextString(UObject* ContextObject = nullptr);
